@@ -2,7 +2,7 @@ package Seminar3.terminal;
 
 import java.util.Scanner;
 
-
+import Seminar3.db.StudentTable;
 import Seminar3.terminal.executeble.CommandExecutable;
 
 public class TerminalReader {
@@ -36,6 +36,9 @@ public class TerminalReader {
 
         }
 
+    }
+
+    public static void getInstans(StudentTable studentTable) {
     }
 
 }

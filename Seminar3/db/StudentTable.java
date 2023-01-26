@@ -12,5 +12,6 @@ public class StudentTable extends Table<Student> {
             }
         }
         return false;
+    
     }
 }
